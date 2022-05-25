@@ -31,9 +31,6 @@ public class Restaurant {
         allOrders.add(new Order(oneCustomer.getId(),menuList.get("Smoked salmon").getId()));
         Waiter availableWaiter = getAvailableWaiter();
         availableWaiter.takeOrders(getAllOrdersOfTable());//mulltiple tables
-
-
-
         System.out.println(allOrders);
 
     }
